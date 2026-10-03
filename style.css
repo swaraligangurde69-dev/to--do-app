@@ -1,0 +1,45 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a32f99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.todo-container {
+    background-color: rgb(234, 159, 147);
+    width: 90%;
+    max-width: 500px;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.input-section {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color:rgb(108, 170, 149)
+}
+
+li {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #be7e73;
+    display: flex;
+    justify-content: space-between;
+}
